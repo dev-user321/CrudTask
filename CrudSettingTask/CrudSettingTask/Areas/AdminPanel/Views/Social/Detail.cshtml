@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+@model Social
+
+<div class="container" style="margin-left:240px;margin-top:10px;">
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <p class="card-text">@Model.Url</p>
+            <a asp-area="AdminPanel" asp-controller="Social" asp-action="Index" class="btn btn-danger">Back</a>
+
+        </div>
+    </div>
+</div>

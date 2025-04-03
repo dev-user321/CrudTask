@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+@model Social
+
+<form method="post" asp-area="AdminPanel" asp-controller="Social" asp-action="Create">
+    <div class="container mt-5" style="width:700px;margin-left: 260px;background-color:white;">
+        <div class="form-group">
+            <label for="socialName">Enter Social Name</label> <br />
+            <input asp-for="Name" type="text" id="socialName" class="form-control" placeholder="Trying write Social Name ..." style="border:1px solid black;padding-left: 10px;">
+            <label for="socialUrl">Enter Social Url</label> <br />
+            <input asp-for="Url" type="text" id="socialUrl" class="form-control" placeholder="Trying write Social Url ..." style="border:1px solid black;padding-left: 10px;">
+            </br>
+            <span class="text-danger" asp-validation-for="Name"></span>
+            <span class="text-danger" asp-validation-for="Url"></span>
+            <span class="text-danger">@ViewBag.Message</span>
+        </div>
+        <button type="submit" class="btn btn-primary">Yarat</button>
+        <a asp-area="AdminPanel" asp-controller="Social" asp-action="Index" class="btn btn-danger">Back</a>
+    </div>
+</form>
