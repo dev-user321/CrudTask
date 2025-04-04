@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+@model Slider
+<form method="post" asp-area="AdminPanel" asp-controller="Slider" asp-action="Create" enctype="multipart/form-data">
+    <div class="container mt-5" style="width:700px;margin-left: 260px;background-color:white;">
+        <div class="form-group">
+            <label for="socialName">Enter Slider Image</label> <br />
+            <input asp-for="Photo" type="file" >
+            </br>
+            <span class="text-danger" asp-validation-for="Photo"></span>
+            <span class="text-danger">@ViewBag.Message</span>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Yarat</button>
+        <a asp-area="AdminPanel" asp-controller="Slider" asp-action="Index" class="btn btn-danger">Back</a>
+    </div>
+</form>

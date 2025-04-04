@@ -1,15 +1,22 @@
 using System.Diagnostics;
+using CrudSettingTask.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace CrudSettingTask.Controllers
 {
     public class HomeController : Controller
     {
-       
 
-        public IActionResult Index()
+        private readonly AppDbContext _context;
+        public HomeController(AppDbContext context)
         {
-            return View();
+            _context = context;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var sliders = await _context.Sliders.Where(m=>m.IsDelete == false).ToListAsync();
+            return View(sliders);
         }
 
         

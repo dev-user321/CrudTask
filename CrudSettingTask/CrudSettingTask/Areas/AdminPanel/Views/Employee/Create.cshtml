@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+@model Employee
+<form method="post" asp-area="AdminPanel" asp-controller="Employee" asp-action="Create">
+    <div class="container mt-5" style="width:700px;margin-left: 260px;background-color:white;">
+        <div class="form-group">
+            <label for="fullName">Enter Full Name</label> <br />
+            <input asp-for="FullName" type="text" class="form-control" placeholder="Trying write Full Name ..." style="border:1px solid black;padding-left: 10px;">
+            <span class="text-danger" asp-validation-for="FullName"></span>
+            <label for="age">Enter Age</label> <br />
+            <input asp-for="Age" type="text"  class="form-control" placeholder="Trying write Age ..." style="border:1px solid black;padding-left: 10px;">
+            <span class="text-danger" asp-validation-for="Age"></span>
+            <label for="position">Enter Position </label> <br />
+            <input asp-for="Position" type="text"  class="form-control" placeholder="Trying write Position ..." style="border:1px solid black;padding-left: 10px;">
+            <span class="text-danger" asp-validation-for="Position"></span>
+      <br />     
+            <span class="text-danger">@ViewBag.Message</span>
+        </div>
+        <button type="submit" class="btn btn-primary">Yarat</button>
+        <a asp-area="AdminPanel" asp-controller="Employee" asp-action="Index" class="btn btn-danger">Back</a>
+    </div>
+</form>
+

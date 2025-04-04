@@ -1,7 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
+@model List<Slider>
     <!-- MAIN START -->
 
     <main>
@@ -10,9 +10,12 @@
 
         <section id="slider">
             <div class="owl-carousel slider">
-                <div> <img src="~/img/h3-slider-background.jpg" alt=""> </div>
-                <div> <img src="~/img/h3-slider-background-2.jpg" alt=""> </div>
-                <div> <img src="~/img/h3-slider-background-3.jpg" alt=""> </div>
+                @foreach (var slider in Model)
+            {
+                <div> <img src="~/img/@slider.Image" alt=""> </div>
+                
+            }
+                
             </div>
             <div class="container context pl-lg-5 ml-lg-3">
                 <div class="row">
