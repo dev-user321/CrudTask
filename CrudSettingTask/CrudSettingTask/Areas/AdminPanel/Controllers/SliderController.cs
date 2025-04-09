@@ -1,5 +1,6 @@
 ﻿using CrudSettingTask.Data;
 using CrudSettingTask.Models;
+using CrudSettingTask.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,9 +11,9 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _env;
-        public SliderController(AppDbContext context,IWebHostEnvironment env)
+        public SliderController(AppDbContext context, IWebHostEnvironment env)
         {
-            _context = context; 
+            _context = context;
             _env = env;
         }
         public async Task<IActionResult> Index()
@@ -21,32 +22,37 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
             return View(sliders);
         }
 
-        [HttpGet]   
+        [HttpGet]
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Slider slider)
+        public async Task<IActionResult> Create(SliderCreateVM slider)
         {
-            if (slider == null) return NotFound();
-            string fileName = Guid.NewGuid().ToString() + "_" + slider.Photo.FileName;
-            string path = Path.Combine(_env.WebRootPath, "img", fileName);
 
-            using (FileStream stream = new FileStream(path, FileMode.Create))
+            foreach (var photo in slider.Photos)
             {
-                await slider.Photo.CopyToAsync(stream);
+                string fileName = Guid.NewGuid().ToString() + "_" + photo.FileName;
+                string path = Path.Combine(_env.WebRootPath, "img", fileName);
+
+                using (FileStream stream = new FileStream(path, FileMode.Create))
+                {
+                    await photo.CopyToAsync(stream);
+                }
+
+                Slider newSlider = new Slider()
+                {
+                    Image = fileName
+                };
+                await _context.Sliders.AddAsync(newSlider);
             }
-
-            slider.Image = fileName;
-            await _context.Sliders.AddAsync(slider);    
             await _context.SaveChangesAsync();
-
             return RedirectToAction("Index");
         }
 
-        
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return NotFound();
@@ -54,13 +60,13 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
             var slider = await _context.Sliders.FirstOrDefaultAsync(m => m.Id == id);
             if (slider == null) return NotFound();
 
-            
+
             string oldImagePath = Path.Combine(_env.WebRootPath, "img", slider.Image);
             if (System.IO.File.Exists(oldImagePath))
             {
                 System.IO.File.Delete(oldImagePath);
             }
-            
+
 
             _context.Sliders.Remove(slider);
             await _context.SaveChangesAsync();
@@ -71,12 +77,12 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
 
         public async Task<IActionResult> Detail(int? id)
         {
-            if(id == null) return BadRequest();
+            if (id == null) return BadRequest();
             var slide = await _context.Sliders.FirstOrDefaultAsync(s => s.Id == id);
             return View(slide);
         }
 
-        [HttpGet] 
+        [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return BadRequest();
@@ -85,18 +91,18 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int? id,Slider slider)
+        public async Task<IActionResult> Edit(int? id, Slider slider)
         {
             if (id == null) return BadRequest();
             if (slider.Photo == null)
             {
                 return RedirectToAction("Index");
             }
-            
-            var updatedSlider = await _context.Sliders.FirstOrDefaultAsync(m=>m.Id == id);
-            
+
+            var updatedSlider = await _context.Sliders.FirstOrDefaultAsync(m => m.Id == id);
+
             string oldImagePath = Path.Combine(_env.WebRootPath, "img", updatedSlider.Image);
-            
+
             if (System.IO.File.Exists(oldImagePath))
             {
                 System.IO.File.Delete(oldImagePath);
@@ -105,17 +111,18 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
             string fileName = Guid.NewGuid().ToString() + "_" + slider.Photo.FileName;
 
             string path = Path.Combine(_env.WebRootPath, "img", fileName);
-            
-            using(FileStream stream = new FileStream(path,FileMode.Create))
+
+            using (FileStream stream = new FileStream(path, FileMode.Create))
             {
-                await slider.Photo.CopyToAsync(stream); 
+                await slider.Photo.CopyToAsync(stream);
             };
 
             updatedSlider.Image = fileName;
 
-            await _context.SaveChangesAsync();  
-            
-            return RedirectToAction("Index");  
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("Index");
         }
+
     }
 }

@@ -319,6 +319,7 @@ wwwroot\admin\assets\scss\material-dashboard\variables\_utilities-extend.scss
 wwwroot\admin\assets\scss\material-dashboard\variables\_virtual-reality.scss
 wwwroot\css\style.css
 wwwroot\css\style.css.map
+wwwroot\img\1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.png
 wwwroot\img\blog-feature-img-1.jpg
 wwwroot\img\blog-feature-img-3.jpg
 wwwroot\img\blog-feature-img-4.jpg

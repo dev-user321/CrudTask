@@ -3,14 +3,14 @@
     ViewData["Title"] = "Create";
     Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
 }
-@model Slider
+@model SliderCreateVM
 <form method="post" asp-area="AdminPanel" asp-controller="Slider" asp-action="Create" enctype="multipart/form-data">
     <div class="container mt-5" style="width:700px;margin-left: 260px;background-color:white;">
         <div class="form-group">
             <label for="socialName">Enter Slider Image</label> <br />
-            <input asp-for="Photo" type="file" >
+            <input asp-for="Photos" type="file" multiple>
             </br>
-            <span class="text-danger" asp-validation-for="Photo"></span>
+            <span class="text-danger" asp-validation-for="Photos"></span>
             <span class="text-danger">@ViewBag.Message</span>
         </div>
         <br />
