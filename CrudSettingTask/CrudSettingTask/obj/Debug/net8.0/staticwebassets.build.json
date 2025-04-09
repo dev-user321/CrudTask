@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5aqYJoAG6pE1FokGECAlJIRsycp6FXSTybwLudXoDkc=",
+  "Hash": "p2s2eW00OnDgo/xQHcOGeg3li+sYahtGkpsgYASacPM=",
   "Source": "CrudSettingTask",
   "BasePath": "_content/CrudSettingTask",
   "Mode": "Default",
@@ -6798,27 +6798,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.png",
-      "SourceId": "CrudSettingTask",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\",
-      "BasePath": "_content/CrudSettingTask",
-      "RelativePath": "img/1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hguyb9iqo1",
-      "Integrity": "T+L/aaSCUe3eOFMV7WWlV5PkqolhwGNDD6S836y6nPs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.png"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\blog-feature-img-1.jpg",
@@ -34649,88 +34628,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-3p4hzNbj4Y0ct4D5SAXntWZx3cHUPz1jS5SFZawn/5o="
-        }
-      ]
-    },
-    {
-      "Route": "img/1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.hguyb9iqo1.png",
-      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "117745"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T+L/aaSCUe3eOFMV7WWlV5PkqolhwGNDD6S836y6nPs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 07:19:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "hguyb9iqo1"
-        },
-        {
-          "Name": "label",
-          "Value": "img/1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-T+L/aaSCUe3eOFMV7WWlV5PkqolhwGNDD6S836y6nPs="
-        }
-      ]
-    },
-    {
-      "Route": "img/1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.png",
-      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\1421ccb4-45ad-4699-a095-2919a039cc7a_Screenshot 2024-10-08 101649.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "117745"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"T+L/aaSCUe3eOFMV7WWlV5PkqolhwGNDD6S836y6nPs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 07:19:01 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-T+L/aaSCUe3eOFMV7WWlV5PkqolhwGNDD6S836y6nPs="
         }
       ]
     },

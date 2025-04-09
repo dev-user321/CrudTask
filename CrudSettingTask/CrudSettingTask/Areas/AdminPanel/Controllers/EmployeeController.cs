@@ -1,4 +1,5 @@
 ﻿using CrudSettingTask.Data;
+using CrudSettingTask.Helper;
 using CrudSettingTask.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -13,10 +14,26 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1 , int take = 5)
         {
-            var employees = await _context.Employees.Where(m => m.IsDelete == false).ToListAsync();
-            return View(employees);
+            var employees = await _context.Employees.Where(m => m.IsDelete == false)
+                .Skip((page*take) - take)
+                .Take(take)
+                .ToListAsync();
+            int totalPageCount = await RoundPageCount(take);
+
+            Pagination<Employee> pagination = new Pagination<Employee>(employees, totalPageCount, page);
+            return View(pagination);
+        }
+        private async Task<int> GetAllEmployeeCount()
+        {
+            return await _context.Employees.Where(m=> m.IsDelete == false).CountAsync();    
+        }
+        private async Task<int> RoundPageCount(int take)
+        {
+            int totalCount = await GetAllEmployeeCount();
+            return (int)Math.Ceiling((decimal)totalCount / take);
+
         }
         public async Task<IActionResult> ChangeStatus(int? id)
         {

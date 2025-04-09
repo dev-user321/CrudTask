@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\helper\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\helper\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Migrations\\20250409155315_CreateCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CrudSettingTask\\Migrations\\20250409155315_CreateCategoryTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\controllers\\sliderdescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\controllers\\sliderdescriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\sliderdescription\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\sliderdescription\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,14 +95,6 @@
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\sliderdescription\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\slider\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\viewmodels\\sliderdescriptionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\viewmodels\\sliderdescriptionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -69,10 +109,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,20 +127,8 @@
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\viewmodels\\slidercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\controllers\\socialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -113,10 +137,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\social\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\social\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\areas\\adminpanel\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|solutionrelative:crudsettingtask\\areas\\adminpanel\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46A95B6B-023D-4E98-996E-502B72C5FD95}|CrudSettingTask\\CrudSettingTask.csproj|c:\\users\\lenovo\\desktop\\aspnet-quiz\\crudsetting\\crudsettingtask\\crudsettingtask\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -198,7 +218,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -218,7 +238,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Helper\\Pagination.cs",
+              "RelativeDocumentMoniker": "CrudSettingTask\\Helper\\Pagination.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Helper\\Pagination.cs",
+              "RelativeToolTip": "CrudSettingTask\\Helper\\Pagination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:14:55.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250409155315_CreateCategoryTable.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Migrations\\20250409155315_CreateCategoryTable.cs",
+              "RelativeDocumentMoniker": "CrudSettingTask\\Migrations\\20250409155315_CreateCategoryTable.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Migrations\\20250409155315_CreateCategoryTable.cs",
+              "RelativeToolTip": "CrudSettingTask\\Migrations\\20250409155315_CreateCategoryTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:53:15.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T15:52:19.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:51:31.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "CrudSettingTask\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\Category.cs",
+              "RelativeToolTip": "CrudSettingTask\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T15:48:35.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Edit.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Edit.cshtml",
@@ -226,12 +311,11 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T07:14:27.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T07:14:27.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Create.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Create.cshtml",
@@ -239,12 +323,11 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T06:52:18.167Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:52:18.167Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 20,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Detail.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Detail.cshtml",
@@ -252,12 +335,11 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Detail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T06:49:10.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:49:10.303Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Index.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Index.cshtml",
@@ -265,25 +347,24 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\SliderDescription\\Index.cshtml",
               "ViewState": "AgIAAKUAAAAAAAAAAAAAALUAAACBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T06:32:42.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:32:42.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "SliderDescriptionController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SliderDescriptionController.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SliderDescriptionController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SliderDescriptionController.cs",
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SliderDescriptionController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAswHQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T06:30:38.608Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "SliderDescriptionVM.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\ViewModels\\SliderDescriptionVM.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\ViewModels\\SliderDescriptionVM.cs",
@@ -291,12 +372,11 @@
               "RelativeToolTip": "CrudSettingTask\\ViewModels\\SliderDescriptionVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:28:04.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:28:04.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "20250409062715_CreateSliderDescriptionTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Migrations\\20250409062715_CreateSliderDescriptionTable.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Migrations\\20250409062715_CreateSliderDescriptionTable.cs",
@@ -304,12 +384,11 @@
               "RelativeToolTip": "CrudSettingTask\\Migrations\\20250409062715_CreateSliderDescriptionTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T06:27:15.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T06:27:15.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "SliderDescription.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\SliderDescription.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Models\\SliderDescription.cs",
@@ -317,12 +396,11 @@
               "RelativeToolTip": "CrudSettingTask\\Models\\SliderDescription.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:55:10.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T05:55:10.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "SliderCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\ViewModels\\SliderCreateVM.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\ViewModels\\SliderCreateVM.cs",
@@ -330,12 +408,11 @@
               "RelativeToolTip": "CrudSettingTask\\ViewModels\\SliderCreateVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T05:34:31.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T05:34:31.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 32,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Edit.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Edit.cshtml",
@@ -347,7 +424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Create.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Create.cshtml",
@@ -360,32 +437,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Index.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Index.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAwwMIAAAB4AAAAAAAAAA==",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T14:58:32.986Z"
+              "WhenOpened": "2025-04-04T14:58:32.986Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 3,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwFcAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwBYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T14:57:45.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 16,
               "Title": "SliderController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
@@ -393,12 +471,11 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SliderController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAkwC8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:40:43.235Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T14:40:43.235Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 17,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Edit.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Edit.cshtml",
@@ -406,12 +483,11 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T13:40:35.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T13:40:35.078Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 21,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
@@ -419,12 +495,11 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Detail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T13:33:13.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T13:33:13.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
@@ -432,25 +507,24 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T11:58:53.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T11:58:53.246Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Slider\\Index.cshtml",
-              "ViewState": "AgIAALoAAAAAAAAAAAAcwN4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAowN4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-04T11:50:35.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "20250404114441_CreateEmployeeAndSliderTable.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Migrations\\20250404114441_CreateEmployeeAndSliderTable.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Migrations\\20250404114441_CreateEmployeeAndSliderTable.cs",
@@ -462,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Models\\Employee.cs",
@@ -474,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Models\\Slider.cs",
@@ -486,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 33,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Edit.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Edit.cshtml",
@@ -498,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "Detail.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Detail.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Detail.cshtml",
@@ -510,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Create.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Create.cshtml",
@@ -522,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Index.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Social\\Index.cshtml",
@@ -534,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 7,
               "Title": "SocialController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SocialController.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SocialController.cs",
@@ -542,11 +616,12 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SocialController.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAYwFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T19:26:00.774Z"
+              "WhenOpened": "2025-04-03T19:26:00.774Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "20250403190716_SocialTableCreate.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Migrations\\20250403190716_SocialTableCreate.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Migrations\\20250403190716_SocialTableCreate.cs",
@@ -558,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Social.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\Social.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Models\\Social.cs",
@@ -570,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Setting\\Index.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Setting\\Index.cshtml",
@@ -582,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "SettingController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SettingController.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\SettingController.cs",
@@ -594,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Home\\Index.cshtml",
@@ -606,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Controllers\\HomeController.cs",
@@ -618,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\_ViewStart.cshtml",
@@ -626,18 +701,17 @@
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T18:24:53.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T18:24:53.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T18:24:52.067Z",
               "EditorCaption": ""
@@ -650,14 +724,14 @@
               "RelativeDocumentMoniker": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Areas\\AdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "CrudSettingTask\\Areas\\AdminPanel\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAMwEkAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAtwDAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T18:24:07.884Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Views\\_ViewStart.cshtml",
@@ -669,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "FooterViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\ViewComponents\\FooterViewComponent.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\ViewComponents\\FooterViewComponent.cs",
@@ -681,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Views\\Shared\\Components\\Footer\\Default.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Views\\Shared\\Components\\Footer\\Default.cshtml",
@@ -693,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Views\\Home\\Index.cshtml",
@@ -705,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 29,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Views\\Shared\\_Layout.cshtml",
@@ -713,12 +787,11 @@
               "RelativeToolTip": "CrudSettingTask\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAHMAAAAAAAAAAAAMwIUAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T18:05:07.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T18:05:07.356Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 27,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Program.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Program.cs",
@@ -726,12 +799,11 @@
               "RelativeToolTip": "CrudSettingTask\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T18:01:24.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T18:01:24.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "Setting.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\Setting.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Models\\Setting.cs",
@@ -743,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Models\\BaseEntity.cs",
@@ -751,25 +823,24 @@
               "RelativeToolTip": "CrudSettingTask\\Models\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T17:59:40.289Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:59:40.289Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Data\\AppDbContext.cs",
               "RelativeToolTip": "CrudSettingTask\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T17:58:40.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 28,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\appsettings.json",
               "RelativeDocumentMoniker": "CrudSettingTask\\appsettings.json",
@@ -777,12 +848,11 @@
               "RelativeToolTip": "CrudSettingTask\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-03T17:54:46.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:54:46.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CrudSettingTask\\Controllers\\HomeController.cs",
@@ -790,12 +860,11 @@
               "RelativeToolTip": "CrudSettingTask\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T17:54:28.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:54:28.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CrudSettingTask\\Views\\_ViewImports.cshtml",

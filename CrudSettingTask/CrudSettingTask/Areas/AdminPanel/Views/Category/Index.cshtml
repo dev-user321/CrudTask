@@ -1,14 +1,11 @@
-﻿
-@{
+﻿@{
     ViewData["Title"] = "Index";
     Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
 }
 
-@{
-    ViewData["Title"] = "Index";
-    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
-}
-@model Pagination<Employee>
+
+
+@model Pagination<Category>
 <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <!-- Navbar -->
     <nav class="navbar navbar-main navbar-expand-lg px-0 mx-3 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
@@ -143,25 +140,22 @@
                     <div class="card-body px-0 pb-2">
                         <div class="table-responsive p-0">
                             <button type="button" class="btn btn-success" style="margin-left:15px;">
-                                <a asp-area="AdminPanel" asp-controller="Employee" asp-action="Create"> Create </a>
+                                <a asp-area="AdminPanel" asp-controller="Category" asp-action="Create"> Create </a>
                             </button>
                             <table class="table align-items-center justify-content-center mb-0">
                                 <thead>
                                     <tr>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">#</th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Full Name</th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Age</th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Position</th>
-                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
+                                        <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Category Name</th>
                                         <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Setting</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     @{
-                                        int count = (Model.CurrentPage * 5) - 5;
+                                        int count = (Model.CurrentPage * 5)-5;
                                     }
 
-                                    @foreach (var employee in Model.Datas)
+                                    @foreach (var category in Model.Datas)
                                     {
                                         count++;
                                         <tr>
@@ -173,26 +167,12 @@
                                                 </div>
                                             </td>
                                             <td>
-                                                @employee.FullName
+                                                @category.CategoryName
                                             </td>
                                             <td>
-                                                @employee.Age
-                                            </td>
-                                            <td>
-                                                @employee.Position
-                                            </td>
-                                            <td>
-                                                @if(employee.IsActive) {
-                                                    <p> Aktiv </p> 
-                                                }else {
-                                                    <p> Passiv </p>
-                                                }
-                                            </td>
-                                            <td>
-                                                <a class="btn btn-outline-success" asp-area="AdminPanel" asp-controller="Employee" asp-action="ChangeStatus" asp-route-id="@employee.Id">On/Off</a>
-                                                <a class="btn btn-success" asp-area="AdminPanel" asp-controller="Employee" asp-action="Detail" asp-route-id="@employee.Id">Detail</a>
-                                                <a class="btn btn-secondary" asp-area="AdminPanel" asp-controller="Employee" asp-action="Edit" asp-route-id="@employee.Id">Edit</a>
-                                                <a class="btn btn-danger" asp-area="AdminPanel" asp-controller="Employee" asp-action="Delete" asp-route-id="@employee.Id">Delete</a>
+                                                <a class="btn btn-success" asp-area="AdminPanel" asp-controller="Category" asp-action="Detail" asp-route-id="@category.Id">Detail</a>
+                                                <a class="btn btn-secondary" asp-area="AdminPanel" asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id">Edit</a>
+                                                <a class="btn btn-danger" asp-area="AdminPanel" asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">Delete</a>
                                             </td>
                                         </tr>
                                     }
@@ -205,13 +185,13 @@
             </div>
             <nav aria-label="Page navigation example">
                 <ul class="pagination">
-                    <li class="page-item @(Model.HasPrevious ? "" : "disabled")"><a class="page-link" asp-area="AdminPanel" asp-controller="Employee" asp-action="Index" asp-route-page="@(Model.CurrentPage - 1)">Pre</a></li>
-                    @for (int i = 1; i <= Model.TotalPageCount; i++)
+                    <li class="page-item @(Model.HasPrevious ? "" : "disabled")"><a class="page-link" asp-area="AdminPanel" asp-controller="Category" asp-action="Index" asp-route-page="@(Model.CurrentPage - 1)">Pre</a></li>
+                    @for(int i = 1;i <= Model.TotalPageCount;i++) 
                     {
-                        <li class="page-item @(i == Model.CurrentPage ? "disabled" : "")"><a class="page-link" asp-area="AdminPanel" asp-controller="Employee" asp-action="Index" asp-route-page="@i">@i</a></li>
+                        <li class="page-item @(i == Model.CurrentPage ? "disabled" : "")"><a class="page-link" asp-area="AdminPanel" asp-controller="Category" asp-action="Index" asp-route-page="@i">@i</a></li>
                     }
-
-                    <li class="page-item @(Model.HasNext ? "" : "disabled")"><a class="page-link" asp-area="AdminPanel" asp-controller="Employee" asp-action="Index" asp-route-page="@(Model.CurrentPage + 1)">Nex</a></li>
+                    
+                    <li class="page-item @(Model.HasNext ? "" : "disabled")"><a class="page-link" asp-area="AdminPanel" asp-controller="Category" asp-action="Index" asp-route-page="@(Model.CurrentPage + 1)">Nex</a></li>
                 </ul>
             </nav>
         </div>
@@ -249,8 +229,6 @@
         </footer>
     </div>
 </main>
-
-
 
 
 
