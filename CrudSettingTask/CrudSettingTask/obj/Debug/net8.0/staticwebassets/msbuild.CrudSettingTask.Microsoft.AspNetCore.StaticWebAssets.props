@@ -5796,6 +5796,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css.map'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\1304490c-0015-4e3e-8aff-a5b0f6f5f69fScreenshot 2024-09-18 203515.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CrudSettingTask</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CrudSettingTask</BasePath>
+      <RelativePath>img/1304490c-0015-4e3e-8aff-a5b0f6f5f69fScreenshot 2024-09-18 203515.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vj41zn3nuz</Fingerprint>
+      <Integrity>S3xF0kr8FJ1ngKfVVEiJqBILzMsAXXOcV0d3IEVNhQ4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\1304490c-0015-4e3e-8aff-a5b0f6f5f69fScreenshot 2024-09-18 203515.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\4a8f5d16-27b8-4a7f-9e99-4be8d0b42a86Screenshot 2024-10-02 201413.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CrudSettingTask</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CrudSettingTask</BasePath>
+      <RelativePath>img/4a8f5d16-27b8-4a7f-9e99-4be8d0b42a86Screenshot 2024-10-02 201413.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fpzp6gdhhg</Fingerprint>
+      <Integrity>/WgS1E0WGUrI6CQ18IOSo5psLl9FpkIUxx0o2QPgKP8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\4a8f5d16-27b8-4a7f-9e99-4be8d0b42a86Screenshot 2024-10-02 201413.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\56b36777-9e62-4355-99ca-dd4163139c7aScreenshot 2025-01-09 205017.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CrudSettingTask</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CrudSettingTask</BasePath>
+      <RelativePath>img/56b36777-9e62-4355-99ca-dd4163139c7aScreenshot 2025-01-09 205017.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k42dqg9o4p</Fingerprint>
+      <Integrity>BHYTHEsueudMdJsyQlTvY/ZYbKphjnYE+K37X1gwIvM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\56b36777-9e62-4355-99ca-dd4163139c7aScreenshot 2025-01-09 205017.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\blog-feature-img-1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>CrudSettingTask</SourceId>
@@ -5849,6 +5903,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\blog-feature-img-4.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CrudSettingTask</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CrudSettingTask</BasePath>
+      <RelativePath>img/e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>40zqtx1t05</Fingerprint>
+      <Integrity>TBvG5KS+AFWOhJV81cgBpZs5QJA+iwjMoRpffrvD8rQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\favicon.png'))">
       <SourceType>Package</SourceType>

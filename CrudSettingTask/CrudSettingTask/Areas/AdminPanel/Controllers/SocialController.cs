@@ -1,4 +1,5 @@
-﻿using CrudSettingTask.Data;
+﻿using CrudSettingTask.Areas.AdminPanel.Services;
+using CrudSettingTask.Data;
 using CrudSettingTask.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,79 +9,71 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
     [Area("AdminPanel")]
     public class SocialController : Controller
     {
-        private readonly AppDbContext _context;
-        public SocialController(AppDbContext context)
+        private readonly SocialService _socialService;
+
+        public SocialController(SocialService socialService)
         {
-            _context = context; 
+            _socialService = socialService;
         }
+
         public async Task<IActionResult> Index()
         {
-            var socials = await _context.Socials.Where(m=>m.IsDelete == false).ToListAsync();
+            var socials = await _socialService.GetAllAsync();
             return View(socials);
         }
+
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return BadRequest();
-            var social = await _context.Socials.FirstOrDefaultAsync(m => m.Id == id);
-            social.IsDelete = true;
-            await _context.SaveChangesAsync();  
+            await _socialService.DeleteAsync(id.Value);
             return RedirectToAction("Index");
         }
 
         [HttpGet]
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
+
         [HttpPost]
         public async Task<IActionResult> Create(Social social)
         {
+            if (!ModelState.IsValid) return View(social);
 
-            if(social == null) return BadRequest();
-
-            var existedSocial = await _context.Socials
-                .FirstOrDefaultAsync(
-                m => m.Name.Trim().ToLower() == social.Name.Trim().ToLower() && 
-                m.Url.Trim().ToLower() == social.Url.Trim().ToLower());      
-            if(existedSocial != null)
+            bool exists = await _socialService.ExistsAsync(social.Name, social.Url);
+            if (exists)
             {
-                ViewBag.Message = "Bu Sosial Sebeke Movcuddur";
+                ViewBag.Message = "Bu Sosial Şəbəkə artıq mövcuddur";
                 return View();
             }
-            await _context.Socials.AddAsync(social);
-            await _context.SaveChangesAsync();
+
+            await _socialService.CreateAsync(social);
             return RedirectToAction("Index");
         }
 
         public async Task<IActionResult> Detail(int? id)
         {
             if (id == null) return BadRequest();
-            var social = await _context.Socials.FirstOrDefaultAsync(m => m.Id == id);
-            if (social == null) return NotFound();
-            return View(social);
-        }
-        [HttpGet]
-        public async Task<IActionResult> Edit(int id)
-        {
-            var social = await _context.Socials.FindAsync(id);
+            var social = await _socialService.GetByIdAsync(id.Value);
             if (social == null) return NotFound();
 
             return View(social);
         }
-        [HttpPost]
-        public async Task<IActionResult> Edit(int? id, Social social)
+
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return BadRequest();
 
-            var existedSocial = await _context.Socials.FirstOrDefaultAsync(m => m.Id == id);
-            if (existedSocial == null) return NotFound();
+            var social = await _socialService.GetByIdAsync(id.Value);
+            if (social == null) return NotFound();
 
+            return View(social);
+        }
 
-            existedSocial.Name = social.Name;
-            existedSocial.Url = social.Url;
+        [HttpPost]
+        public async Task<IActionResult> Edit(int? id, Social social)
+        {
+            if (id == null || !ModelState.IsValid) return View(social);
 
-            await _context.SaveChangesAsync();
-
+            await _socialService.UpdateAsync(id.Value, social);
             return RedirectToAction(nameof(Index));
         }
 

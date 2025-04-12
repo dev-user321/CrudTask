@@ -243,6 +243,7 @@ C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\CrudSettingTask.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\CrudSettingTask.RazorAssemblyInfo.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\CrudSettingTask.RazorAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\CrudSettingTask.sourcelink.json
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\scopedcss\bundle\CrudSettingTask.styles.css
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\scopedcss\projectbundle\CrudSettingTask.bundle.scp.css
@@ -262,4 +263,3 @@ C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\CrudSettingTask.pdb
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\CrudSettingTask.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\ref\CrudSettingTask.dll
-C:\Users\Lenovo\Desktop\AspNet-Quiz\CrudSetting\CrudSettingTask\CrudSettingTask\obj\Debug\net8.0\CrudSettingTask.sourcelink.json

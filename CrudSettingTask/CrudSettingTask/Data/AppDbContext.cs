@@ -13,5 +13,7 @@ namespace CrudSettingTask.Data
         public DbSet<Slider> Sliders { get; set; }  
         public DbSet<SliderDescription> SliderDescriptions { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
+        public DbSet<Product> Products { get; set; }    
     }
 }

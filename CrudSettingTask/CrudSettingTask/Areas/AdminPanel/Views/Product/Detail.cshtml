@@ -1,0 +1,24 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="card" style="width: 18rem;margin-left:280px;margin-top:10px;">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Title</h5>
+        <h5 class="card-title">@Model.Description</h5>
+        <h5 class="card-title">@Model.Price</h5>
+        <h5 class="card-title">@Model.Title</h5>
+        <h5 class="card-title">@Model.Category.CategoryName</h5>
+        <h5 class="card-title">@Model.CreatedTime</h5>
+        @foreach(var image in Model.Images)
+        {
+            <img src="~/img/@image.Image" style="width:70px;height:70px;" />
+        } <br /> <br />
+        <a asp-area="AdminPanel" asp-controller="Product" asp-action="Index" class="btn btn-danger">Back</a>
+
+    </div>
+</div>
+

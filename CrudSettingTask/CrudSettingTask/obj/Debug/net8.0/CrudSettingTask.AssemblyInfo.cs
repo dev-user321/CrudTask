@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrudSettingTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d82ea17b35f0ed199fb97fd14c77bee11acc194")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f83e05cfeb97a1639290bff7710592a84f5ac4b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrudSettingTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrudSettingTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

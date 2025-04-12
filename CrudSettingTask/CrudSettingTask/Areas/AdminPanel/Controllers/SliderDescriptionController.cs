@@ -1,4 +1,5 @@
-﻿using CrudSettingTask.Data;
+﻿using CrudSettingTask.Areas.AdminPanel.Services;
+using CrudSettingTask.Data;
 using CrudSettingTask.Models;
 using CrudSettingTask.ViewModels;
 using Microsoft.AspNetCore.Mvc;
@@ -9,36 +10,26 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
     [Area("AdminPanel")]
     public class SliderDescriptionController : Controller
     {
-        private readonly AppDbContext _context;
-        private readonly IWebHostEnvironment _env;
-        public SliderDescriptionController(AppDbContext context, IWebHostEnvironment webHostEnvironment)
+        private readonly SliderDescriptionService _sliderDescriptionService;
+
+        public SliderDescriptionController(SliderDescriptionService service)
         {
-            _context = context;
-            _env = webHostEnvironment;
+            _sliderDescriptionService = service;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var sliderDescription = await _context.SliderDescriptions.Where(m => m.IsDelete == false).ToListAsync();
-            return View(sliderDescription);
+            var items = await _sliderDescriptionService.GetAllAsync();
+            return View(items);
         }
+
         [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null) return BadRequest();
 
-            var sliderDescription = await _context.SliderDescriptions.FirstOrDefaultAsync(m => m.Id == id);
-            if (sliderDescription == null) return NotFound();
-
-            string oldPath = Path.Combine(_env.WebRootPath, "img", sliderDescription.Image);
-            if (System.IO.File.Exists(oldPath))
-            {
-                System.IO.File.Delete(oldPath);
-            }
-            _context.SliderDescriptions.Remove(sliderDescription);
-            await _context.SaveChangesAsync();
-
+            await _sliderDescriptionService.DeleteAsync(id.Value);
             return RedirectToAction("Index");
         }
 
@@ -46,35 +37,22 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
         public async Task<IActionResult> Detail(int? id)
         {
             if (id == null) return BadRequest();
-            var sliderDescription = await _context.SliderDescriptions.FirstOrDefaultAsync(m => m.Id == id);
-            if (sliderDescription == null) return NotFound();
-            return View(sliderDescription);
+
+            var item = await _sliderDescriptionService.GetByIdAsync(id.Value);
+            if (item == null) return NotFound();
+
+            return View(item);
         }
+
         [HttpGet]
-        public IActionResult Create()
-        {
-            return View();
-        }
+        public IActionResult Create() => View();
+
         [HttpPost]
-        public async Task<IActionResult> Create(SliderDescriptionVM sliderDescription)
+        public async Task<IActionResult> Create(SliderDescriptionVM vm)
         {
-            if(sliderDescription == null) return BadRequest();  
-            string fileName = Guid.NewGuid().ToString() + "_" + sliderDescription.Photo.FileName;
-            string path = Path.Combine(_env.WebRootPath, "img", fileName);
+            if (!ModelState.IsValid) return View(vm);
 
-            using (FileStream stream = new FileStream(path, FileMode.Create))
-            {
-                await sliderDescription.Photo.CopyToAsync(stream);
-            }
-            SliderDescription newSliderDescription = new SliderDescription()
-            {
-                Title = sliderDescription.Title,    
-                Description = sliderDescription.Description,    
-                Image = fileName
-            };
-            await _context.SliderDescriptions.AddAsync(newSliderDescription); 
-            await _context.SaveChangesAsync();
-
+            await _sliderDescriptionService.CreateAsync(vm);
             return RedirectToAction("Index");
         }
 
@@ -82,41 +60,25 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null) return BadRequest();
-            var sliderDescription = await _context.SliderDescriptions.FirstOrDefaultAsync(m => m.Id == id);
 
-            if (sliderDescription == null) return NotFound();
+            var item = await _sliderDescriptionService.GetByIdAsync(id.Value);
+            if (item == null) return NotFound();
 
-            SliderDescriptionVM sliderDescriptionVM = new SliderDescriptionVM()
+            var vm = new SliderDescriptionVM
             {
-                Title = sliderDescription.Title,
-                Description = sliderDescription.Description,
-                
+                Title = item.Title,
+                Description = item.Description
             };
-            return View(sliderDescriptionVM);
+
+            return View(vm);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int? id, SliderDescriptionVM sliderDescriptionVM)
+        public async Task<IActionResult> Edit(int? id, SliderDescriptionVM vm)
         {
             if (id == null) return BadRequest();
-            var sliderDescription = await _context.SliderDescriptions.FirstOrDefaultAsync(m => m.Id == id);
-            if (sliderDescription == null) return NotFound();
-            string oldPath = Path.Combine(_env.WebRootPath, "img", sliderDescription.Image);
-            if (System.IO.File.Exists(oldPath))
-            {
-                System.IO.File.Delete(oldPath);
-            }
-            string fileName = Guid.NewGuid().ToString() + sliderDescriptionVM.Photo.FileName;
-            string newPath = Path.Combine(_env.WebRootPath, "img", fileName);
-            using (FileStream stream = new FileStream(newPath, FileMode.Create))
-            {
-                await sliderDescriptionVM.Photo.CopyToAsync(stream);
-            }
-            sliderDescription.Title = sliderDescriptionVM.Title;
-            sliderDescription.Description = sliderDescriptionVM.Description;
-            sliderDescription.Image = fileName;
 
-            await _context.SaveChangesAsync();
+            await _sliderDescriptionService.UpdateAsync(id.Value, vm);
             return RedirectToAction("Index");
         }
     }

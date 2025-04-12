@@ -1,4 +1,5 @@
-﻿using CrudSettingTask.Data;
+﻿using CrudSettingTask.Areas.AdminPanel.Services;
+using CrudSettingTask.Data;
 using CrudSettingTask.Helper;
 using CrudSettingTask.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -9,40 +10,17 @@ namespace CrudSettingTask.Areas.AdminPanel.Controllers
     [Area("AdminPanel")]
     public class CategoryController : Controller
     {
-        private readonly AppDbContext _context;
-        public CategoryController(AppDbContext context)
-        {
-            _context = context; 
-        }
-        //public async Task<IActionResult> Index()
-        //{
-        //    var categories = await _context.Categories.Where(m=>!m.IsDelete).ToListAsync();
-        //    return View(categories);
-        //}
+        private readonly CategoryService _categoryService;
 
-        public async Task<IActionResult> Index(int page = 1,int take = 5)
+        public CategoryController(CategoryService categoryService)
         {
-            var categories = await _context.Categories
-                .Where(m=>!m.IsDelete)
-                .Skip((page*take) - take)
-                .Take(take)
-                .ToListAsync();
-
-            //int totalCount = await GetTotalCategories();
-            int totalPageCount = await RoundPageCount(take);
-            Pagination<Category> pagination = new Pagination<Category>(categories,totalPageCount,page);
-            return View(pagination);
+            _categoryService = categoryService;
         }
 
-        private async Task<int> GetTotalCategories()
+        public async Task<IActionResult> Index(int page = 1, int take = 5)
         {
-            return await _context.Categories.Where(m=>!m.IsDelete).CountAsync();    
-        }
-        private async Task<int> RoundPageCount(int take)
-        {
-            int totalCount = await GetTotalCategories();
-            return (int)Math.Ceiling((decimal)totalCount / take);
-
+            var paginatedCategories = await _categoryService.GetPaginatedCategoriesAsync(page, take);
+            return View(paginatedCategories);
         }
     }
 }

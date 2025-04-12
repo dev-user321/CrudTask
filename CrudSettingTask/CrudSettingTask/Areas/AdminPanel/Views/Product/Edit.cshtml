@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model ProductCreateVM
+<form method="post" asp-area="AdminPanel" asp-controller="Product" asp-action="Edit" enctype="multipart/form-data">
+    <div class="container mt-5" style="width:700px;margin-left: 260px;background-color:white;">
+        @foreach(var image in Model.Images){
+            <img src="~/img/@image.Image" style="width:70px;height:70px;"/> 
+        }
+        <div class="form-group">
+            <label for="Title">Enter Title</label> <br />
+            <input asp-for="Title" type="text" class="form-control" placeholder="Trying write Title ..." style="border:1px solid black;padding-left: 10px;">
+            <span class="text-danger" asp-validation-for="Title"></span>
+            <label for="Description">Enter Description</label> <br />
+            <input asp-for="Description" type="text" class="form-control" placeholder="Trying write Description ..." style="border:1px solid black;padding-left: 10px;">
+            <span class="text-danger" asp-validation-for="Description"></span>
+            <label for="Price">Enter Price </label> <br />
+            <input asp-for="Price" type="number" class="form-control" placeholder="Trying write Price ..." style="border:1px solid black;padding-left: 10px;">
+            <span class="text-danger" asp-validation-for="Price"></span>
+            <label for="CategoryId">Enter Category  </label> <br />
+            <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control" style="border:1px solid black;padding-left: 10px;"></select>
+
+            <label for="Photos">Enter Photos </label> <br />
+            <input asp-for="Photos" type="file" multiple>
+            <span class="text-danger" asp-validation-for="Photos"></span>
+            <br /> <br />
+            <span class="text-danger">@ViewBag.Message</span>
+        </div>
+        <button type="submit" class="btn btn-primary">Yarat</button>
+        <a asp-area="AdminPanel" asp-controller="Product" asp-action="Index" class="btn btn-danger">Back</a>
+    </div>
+</form>
+

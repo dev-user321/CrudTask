@@ -319,9 +319,13 @@ wwwroot\admin\assets\scss\material-dashboard\variables\_utilities-extend.scss
 wwwroot\admin\assets\scss\material-dashboard\variables\_virtual-reality.scss
 wwwroot\css\style.css
 wwwroot\css\style.css.map
+wwwroot\img\1304490c-0015-4e3e-8aff-a5b0f6f5f69fScreenshot 2024-09-18 203515.png
+wwwroot\img\4a8f5d16-27b8-4a7f-9e99-4be8d0b42a86Screenshot 2024-10-02 201413.png
+wwwroot\img\56b36777-9e62-4355-99ca-dd4163139c7aScreenshot 2025-01-09 205017.png
 wwwroot\img\blog-feature-img-1.jpg
 wwwroot\img\blog-feature-img-3.jpg
 wwwroot\img\blog-feature-img-4.jpg
+wwwroot\img\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png
 wwwroot\img\favicon.png
 wwwroot\img\footer-bottom-1.png
 wwwroot\img\h1-custom-icon.png

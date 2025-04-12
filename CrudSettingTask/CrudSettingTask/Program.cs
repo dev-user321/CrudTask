@@ -1,3 +1,4 @@
+using CrudSettingTask.Areas.AdminPanel.Services;
 using CrudSettingTask.Data;
 
 namespace CrudSettingTask
@@ -11,6 +12,14 @@ namespace CrudSettingTask
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddSqlServer<AppDbContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+
+
+            builder.Services.AddScoped<CategoryService>();
+            builder.Services.AddScoped<EmployeeService>();
+            builder.Services.AddScoped<ProductService>();
+            builder.Services.AddScoped<SliderService>();
+            builder.Services.AddScoped<SliderDescriptionService>();
+            builder.Services.AddScoped<SocialService>();
 
             var app = builder.Build();
 
