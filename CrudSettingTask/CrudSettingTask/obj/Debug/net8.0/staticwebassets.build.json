@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b0rivCmBsoRLZG94RtqdTYJC9SIVNC/SqMHs4rbNTow=",
+  "Hash": "LIE/yeB5rWk4Qx6tCgGz9MqesABBjhNVjnqTiJ9MUNI=",
   "Source": "CrudSettingTask",
   "BasePath": "_content/CrudSettingTask",
   "Mode": "Default",
@@ -6863,6 +6863,69 @@
       "OriginalItemSpec": "wwwroot\\img\\56b36777-9e62-4355-99ca-dd4163139c7aScreenshot 2025-01-09 205017.png"
     },
     {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.png",
+      "SourceId": "CrudSettingTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\",
+      "BasePath": "_content/CrudSettingTask",
+      "RelativePath": "img/6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vj41zn3nuz",
+      "Integrity": "S3xF0kr8FJ1ngKfVVEiJqBILzMsAXXOcV0d3IEVNhQ4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.png",
+      "SourceId": "CrudSettingTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\",
+      "BasePath": "_content/CrudSettingTask",
+      "RelativePath": "img/99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r9d5ah70fv",
+      "Integrity": "b3Bd4xKzwENRuEgfbP4iY/H8/VKPOlk5ZN5lkkd3Udk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.png",
+      "SourceId": "CrudSettingTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\",
+      "BasePath": "_content/CrudSettingTask",
+      "RelativePath": "img/a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pib2slkndn",
+      "Integrity": "0baMTifDoiVXWpVkQGy9+cV1CCyLEtZ2bnfZUYbLcgU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.png"
+    },
+    {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\blog-feature-img-1.jpg",
       "SourceId": "CrudSettingTask",
       "SourceType": "Discovered",
@@ -6924,27 +6987,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\blog-feature-img-4.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png",
-      "SourceId": "CrudSettingTask",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\",
-      "BasePath": "_content/CrudSettingTask",
-      "RelativePath": "img/e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "40zqtx1t05",
-      "Integrity": "TBvG5KS+AFWOhJV81cgBpZs5QJA+iwjMoRpffrvD8rQ=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\favicon.png",
@@ -34962,6 +35004,252 @@
       ]
     },
     {
+      "Route": "img/6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.png",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S3xF0kr8FJ1ngKfVVEiJqBILzMsAXXOcV0d3IEVNhQ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 15:13:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S3xF0kr8FJ1ngKfVVEiJqBILzMsAXXOcV0d3IEVNhQ4="
+        }
+      ]
+    },
+    {
+      "Route": "img/6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.vj41zn3nuz.png",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S3xF0kr8FJ1ngKfVVEiJqBILzMsAXXOcV0d3IEVNhQ4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 12 Apr 2025 15:13:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vj41zn3nuz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S3xF0kr8FJ1ngKfVVEiJqBILzMsAXXOcV0d3IEVNhQ4="
+        }
+      ]
+    },
+    {
+      "Route": "img/99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.png",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b3Bd4xKzwENRuEgfbP4iY/H8/VKPOlk5ZN5lkkd3Udk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:04:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b3Bd4xKzwENRuEgfbP4iY/H8/VKPOlk5ZN5lkkd3Udk="
+        }
+      ]
+    },
+    {
+      "Route": "img/99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.r9d5ah70fv.png",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33266"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b3Bd4xKzwENRuEgfbP4iY/H8/VKPOlk5ZN5lkkd3Udk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 14:04:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r9d5ah70fv"
+        },
+        {
+          "Name": "label",
+          "Value": "img/99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b3Bd4xKzwENRuEgfbP4iY/H8/VKPOlk5ZN5lkkd3Udk="
+        }
+      ]
+    },
+    {
+      "Route": "img/a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.pib2slkndn.png",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70405"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0baMTifDoiVXWpVkQGy9+cV1CCyLEtZ2bnfZUYbLcgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 13:59:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pib2slkndn"
+        },
+        {
+          "Name": "label",
+          "Value": "img/a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0baMTifDoiVXWpVkQGy9+cV1CCyLEtZ2bnfZUYbLcgU="
+        }
+      ]
+    },
+    {
+      "Route": "img/a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.png",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70405"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0baMTifDoiVXWpVkQGy9+cV1CCyLEtZ2bnfZUYbLcgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 13 Apr 2025 13:59:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0baMTifDoiVXWpVkQGy9+cV1CCyLEtZ2bnfZUYbLcgU="
+        }
+      ]
+    },
+    {
       "Route": "img/blog-feature-img-1.975qzgn0sw.jpg",
       "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\blog-feature-img-1.jpg",
       "Selectors": [],
@@ -35204,88 +35492,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-xT+KEDAokn3Pc3J9DH8UTMba0FUjVJV1taTWGAMtews="
-        }
-      ]
-    },
-    {
-      "Route": "img/e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.40zqtx1t05.png",
-      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "315555"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TBvG5KS+AFWOhJV81cgBpZs5QJA+iwjMoRpffrvD8rQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 14:47:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "40zqtx1t05"
-        },
-        {
-          "Name": "label",
-          "Value": "img/e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-TBvG5KS+AFWOhJV81cgBpZs5QJA+iwjMoRpffrvD8rQ="
-        }
-      ]
-    },
-    {
-      "Route": "img/e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png",
-      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\img\\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "315555"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"TBvG5KS+AFWOhJV81cgBpZs5QJA+iwjMoRpffrvD8rQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 14:47:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-TBvG5KS+AFWOhJV81cgBpZs5QJA+iwjMoRpffrvD8rQ="
         }
       ]
     },

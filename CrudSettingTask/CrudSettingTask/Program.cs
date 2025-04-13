@@ -20,6 +20,7 @@ namespace CrudSettingTask
             builder.Services.AddScoped<SliderService>();
             builder.Services.AddScoped<SliderDescriptionService>();
             builder.Services.AddScoped<SocialService>();
+            builder.Services.AddScoped<BlogService>();
 
             var app = builder.Build();
 

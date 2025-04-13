@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Areas/AdminPanel/Views/Shared/_AdminLayout.cshtml";
+}
+@model Blog
+
+<div class="card" style="width: 18rem;margin-left:280px;margin-top:10px;">
+    <div class="card-body">
+        <img src="~/img/@Model.Image" style="width:70px;height:70px"/>
+        <h5 class="card-title">@Model.Title</h5>
+        <h5 class="card-title">@Model.Description</h5>
+        <h5 class="card-title">@Model.CreatedTime</h5>
+        <br /> <br />
+        <a asp-area="AdminPanel" asp-controller="Blog" asp-action="Index" class="btn btn-danger">Back</a>
+
+    </div>
+</div>
+

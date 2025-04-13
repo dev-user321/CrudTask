@@ -322,10 +322,12 @@ wwwroot\css\style.css.map
 wwwroot\img\1304490c-0015-4e3e-8aff-a5b0f6f5f69fScreenshot 2024-09-18 203515.png
 wwwroot\img\4a8f5d16-27b8-4a7f-9e99-4be8d0b42a86Screenshot 2024-10-02 201413.png
 wwwroot\img\56b36777-9e62-4355-99ca-dd4163139c7aScreenshot 2025-01-09 205017.png
+wwwroot\img\6f22dae2-a231-464d-89a1-37457bc5f624Screenshot 2024-09-18 203515.png
+wwwroot\img\99d20f1e-fbf6-46e2-a706-fc7065628760Screenshot 2024-08-28 100522.png
+wwwroot\img\a7a86db2-f26b-4625-adcd-4fdbad54e9ecScreenshot 2025-02-15 201134.png
 wwwroot\img\blog-feature-img-1.jpg
 wwwroot\img\blog-feature-img-3.jpg
 wwwroot\img\blog-feature-img-4.jpg
-wwwroot\img\e0e9bb25-004a-43ae-b9d4-cbf10012031dScreenshot 2024-09-18 202845.png
 wwwroot\img\favicon.png
 wwwroot\img\footer-bottom-1.png
 wwwroot\img\h1-custom-icon.png
