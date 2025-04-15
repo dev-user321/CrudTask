@@ -1,5 +1,7 @@
 using CrudSettingTask.Areas.AdminPanel.Services;
 using CrudSettingTask.Data;
+using CrudSettingTask.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace CrudSettingTask
 {
@@ -11,8 +13,13 @@ namespace CrudSettingTask
 
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddSqlServer<AppDbContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+            builder.Services.AddSession(opt => {
+                opt.IOTimeout = TimeSpan.FromSeconds(5);
+            });
 
+            builder.Services.AddSqlServer<AppDbContext>(builder.Configuration.GetConnectionString("DefaultConnection"));
+            builder.Services.AddIdentity<AppUser,IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             builder.Services.AddScoped<CategoryService>();
             builder.Services.AddScoped<EmployeeService>();
@@ -21,6 +28,22 @@ namespace CrudSettingTask
             builder.Services.AddScoped<SliderDescriptionService>();
             builder.Services.AddScoped<SocialService>();
             builder.Services.AddScoped<BlogService>();
+
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredLength = 6;
+                options.Password.RequireNonAlphanumeric = false; 
+
+                options.Lockout.MaxFailedAccessAttempts = 5; 
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMilliseconds(5); 
+                options.Lockout.AllowedForNewUsers = true; 
+
+
+                options.User.RequireUniqueEmail = true; 
+            });
 
             var app = builder.Build();
 
@@ -36,6 +59,7 @@ namespace CrudSettingTask
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.MapControllerRoute(
                 name: "areas",
