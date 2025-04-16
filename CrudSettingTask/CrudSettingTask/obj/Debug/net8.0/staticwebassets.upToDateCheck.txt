@@ -389,3 +389,4 @@ wwwroot\sass\sections\_slider.scss
 wwwroot\sass\sections\_subscribe.scss
 wwwroot\sass\sections\_tab.scss
 wwwroot\sass\style.scss
+wwwroot\templates\verify.html

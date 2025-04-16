@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Düymə və Link</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 80%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-right: 15px;
+        }
+
+            .button:hover {
+                background-color: #45a049;
+            }
+
+        .link {
+            display: inline-block;
+            color: #2196F3;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 12px 24px;
+            transition: color 0.3s;
+        }
+
+            .link:hover {
+                color: #0b7dda;
+                text-decoration: underline;
+            }
+
+        .actions {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Xoş Gəlmisiniz</h1>
+        <p>Aşağıdakı düyməyə klikləyin və ya linki ziyarət edin. Biz sizinlə əlaqə saxlayacağıq.</p>
+
+        <div class="actions">
+            <a href="{{link}}" class="button">Təsdiqlə</a>
+            <a href="#" class="link">Ətraflı məlumat</a>
+        </div>
+    </div>
+</body>
+</html>

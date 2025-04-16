@@ -1,7 +1,12 @@
 ﻿using CrudSettingTask.Models;
 using CrudSettingTask.ViewModels;
+using MailKit.Security;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using MimeKit.Text;
+using MimeKit;
+using MailKit.Net.Smtp;
+using CrudSettingTask.Services.Interface;
 
 namespace CrudSettingTask.Controllers
 {
@@ -9,10 +14,14 @@ namespace CrudSettingTask.Controllers
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-        public AccauntController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager)
+        private readonly IFileService _fileService;
+        private readonly IEmailService _emailService;
+        public AccauntController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager,IFileService fileService,IEmailService emailService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _fileService = fileService;
+            _emailService = emailService;
         }
 
         [HttpGet]
@@ -30,13 +39,24 @@ namespace CrudSettingTask.Controllers
                 FullName = model.FullName,
                 Email = model.Email,
                 UserName = model.UserName,
-
             };
+
             IdentityResult result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
-                return RedirectToAction("Login");
+                var token = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+
+                var link = Url.Action(nameof(ConfirmEmail), "Accaunt", new { userId = user.Id, token },
+                    Request.Scheme, Request.Host.ToString());
+
+                var body = await _fileService.ReadFileAsync("wwwroot/templates/verify.html");
+                body = body.Replace("{{link}}", link);
+                var subject = "Email Confirm";
+                
+                _emailService.Send(user.Email, subject, body);
+
+                return RedirectToAction("EmailAlert");
             }
 
             foreach (var error in result.Errors)
@@ -45,6 +65,34 @@ namespace CrudSettingTask.Controllers
             }
 
             return View(model);
+        }
+       
+ 
+        public IActionResult EmailAlert()
+        {
+            return View();
+        }
+        public async Task<IActionResult> ConfirmEmail(string userId, string token)
+        {
+            if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(token))
+            {
+                return RedirectToAction("Error", "Home");
+            }
+
+            var user = await _userManager.FindByIdAsync(userId);
+            if (user == null)
+            {
+                return NotFound("İstifadəçi tapılmadı.");
+            }
+
+            var result = await _userManager.ConfirmEmailAsync(user, token);
+
+            if (result.Succeeded)
+            {
+                return RedirectToAction("Login", "Accaunt");
+            }
+
+            return View();
         }
 
         [HttpGet]

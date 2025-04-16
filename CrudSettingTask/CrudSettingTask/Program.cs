@@ -1,6 +1,8 @@
 using CrudSettingTask.Areas.AdminPanel.Services;
 using CrudSettingTask.Data;
 using CrudSettingTask.Models;
+using CrudSettingTask.Services;
+using CrudSettingTask.Services.Interface;
 using Microsoft.AspNetCore.Identity;
 
 namespace CrudSettingTask
@@ -28,6 +30,8 @@ namespace CrudSettingTask
             builder.Services.AddScoped<SliderDescriptionService>();
             builder.Services.AddScoped<SocialService>();
             builder.Services.AddScoped<BlogService>();
+            builder.Services.AddScoped<IFileService,FileService>();
+            builder.Services.AddScoped<IEmailService,EmailService>();
 
             builder.Services.Configure<IdentityOptions>(options =>
             {
@@ -36,6 +40,8 @@ namespace CrudSettingTask
                 options.Password.RequireUppercase = false;
                 options.Password.RequiredLength = 6;
                 options.Password.RequireNonAlphanumeric = false; 
+
+                options.SignIn.RequireConfirmedEmail = true;
 
                 options.Lockout.MaxFailedAccessAttempts = 5; 
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMilliseconds(5); 

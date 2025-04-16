@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LIE/yeB5rWk4Qx6tCgGz9MqesABBjhNVjnqTiJ9MUNI=",
+  "Hash": "FhiPo0J63u8BKpXiXYbzQ9dEEdFS8IOF83qvXeUOgWI=",
   "Source": "CrudSettingTask",
   "BasePath": "_content/CrudSettingTask",
   "Mode": "Default",
@@ -8268,6 +8268,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\sass\\style.scss"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\templates\\verify.html",
+      "SourceId": "CrudSettingTask",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\",
+      "BasePath": "_content/CrudSettingTask",
+      "RelativePath": "templates/verify#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u3d22667h0",
+      "Integrity": "2ugD3/KAye0WitiU7viAWxmRN6AIGAAWUwJeAYUB688=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\templates\\verify.html"
     }
   ],
   "Endpoints": [
@@ -34452,7 +34473,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 13:54:59 GMT"
+          "Value": "Wed, 16 Apr 2025 10:00:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34497,7 +34518,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 13:54:59 GMT"
+          "Value": "Wed, 16 Apr 2025 10:00:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34542,7 +34563,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 13:54:59 GMT"
+          "Value": "Wed, 16 Apr 2025 10:00:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34579,7 +34600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 12 Apr 2025 13:54:59 GMT"
+          "Value": "Wed, 16 Apr 2025 10:00:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -40494,6 +40515,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-gGKa8pqf5f2lR3CsxOiSZ8nQRMpCMOR8xOFiTmIK00o="
+        }
+      ]
+    },
+    {
+      "Route": "templates/verify.html",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\templates\\verify.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ugD3/KAye0WitiU7viAWxmRN6AIGAAWUwJeAYUB688=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 09:08:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2ugD3/KAye0WitiU7viAWxmRN6AIGAAWUwJeAYUB688="
+        }
+      ]
+    },
+    {
+      "Route": "templates/verify.u3d22667h0.html",
+      "AssetFile": "C:\\Users\\Lenovo\\Desktop\\AspNet-Quiz\\CrudSetting\\CrudSettingTask\\CrudSettingTask\\wwwroot\\templates\\verify.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2454"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2ugD3/KAye0WitiU7viAWxmRN6AIGAAWUwJeAYUB688=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 09:08:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u3d22667h0"
+        },
+        {
+          "Name": "label",
+          "Value": "templates/verify.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2ugD3/KAye0WitiU7viAWxmRN6AIGAAWUwJeAYUB688="
         }
       ]
     }
