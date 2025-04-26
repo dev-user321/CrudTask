@@ -131,5 +131,65 @@ namespace CrudSettingTask.Controllers
             await _signInManager.SignOutAsync();
             return RedirectToAction("Index", "Home");   
         }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> ForgotPassword(ForgetPasswordVM forgetPasswordVM)
+        {
+            if(forgetPasswordVM == null) return BadRequest();   
+            var user = await _userManager.FindByEmailAsync(forgetPasswordVM.Email);
+            if (user == null) return NotFound();
+
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+
+            var link = Url.Action(nameof(ResetPassword), "Accaunt", new { userId = user.Id, token },
+                Request.Scheme, Request.Host.ToString());
+
+            var body = await _fileService.ReadFileAsync("wwwroot/templates/verify.html");
+            body = body.Replace("{{link}}", link);
+            var subject = "Reset Password";
+
+            _emailService.Send(user.Email, subject, body);
+
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult ResetPassword(string userId,string token)
+        {
+            ResetPasswordVM resetPassword = new ResetPasswordVM()
+            {
+                UserId = userId,
+                Token = token
+            };
+            return View(resetPassword);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordVM resetPasswordVM)
+        {
+            if (resetPasswordVM == null) return BadRequest();
+
+            var user = await _userManager.FindByIdAsync(resetPasswordVM.UserId);
+            if (user == null) return NotFound();
+
+            var resetPassResult = await _userManager.ResetPasswordAsync(user, resetPasswordVM.Token, resetPasswordVM.Password);
+            if (!resetPassResult.Succeeded)
+            {
+                foreach (var error in resetPassResult.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
+                return View(resetPasswordVM); 
+            }
+
+            return RedirectToAction("Login");
+        }
+
+
     }
 }

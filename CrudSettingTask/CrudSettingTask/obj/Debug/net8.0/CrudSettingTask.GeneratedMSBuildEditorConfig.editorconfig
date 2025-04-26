@@ -168,12 +168,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjYXVudFxFbWFpbEFsZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Lenovo/Desktop/AspNet-Quiz/CrudSetting/CrudSettingTask/CrudSettingTask/Views/Accaunt/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjYXVudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Lenovo/Desktop/AspNet-Quiz/CrudSetting/CrudSettingTask/CrudSettingTask/Views/Accaunt/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjYXVudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/Desktop/AspNet-Quiz/CrudSetting/CrudSettingTask/CrudSettingTask/Views/Accaunt/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjYXVudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Lenovo/Desktop/AspNet-Quiz/CrudSetting/CrudSettingTask/CrudSettingTask/Views/Accaunt/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjYXVudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Lenovo/Desktop/AspNet-Quiz/CrudSetting/CrudSettingTask/CrudSettingTask/Views/Home/Index.cshtml]
